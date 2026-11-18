@@ -5,5 +5,3 @@ class Metodo_Pago:
         self.tarjeta=tarjeta
     def procesar_pago(self, monto):
         pass
-class PagoQR(Metodo_Pago):
-    def __init__
