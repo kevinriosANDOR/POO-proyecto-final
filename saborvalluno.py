@@ -7,4 +7,3 @@ root.withdraw()  # Hide the main window
 messagebox.showinfo("Information", "This is an info message!")
 
 root.destroy()
-k
