@@ -1,4 +1,4 @@
-class Pedido(Producto):
+class Pedido(Producto,Cliente):
     def __init__(self, nombre, precio, estado, objetos, cliente):
         super().__init__(nombre, precio)
         self.estado = estado
